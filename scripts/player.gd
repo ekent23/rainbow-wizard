@@ -40,3 +40,12 @@ func _physics_process(delta: float) -> void:
 		$AnimatedSprite2D.play("idle")
 			
 	move_and_slide()
+	
+	print(GameManager.coins)
+	
+func killPlayer():
+	position = %RespawnPoint.position
+	$AnimatedSprite2D.flip_h = false 
+		
+func _on_death_area_body_entered(body: Node2D) -> void:
+	killPlayer()

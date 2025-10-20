@@ -15,6 +15,14 @@ run/main_scene="uid://bhkhm73m4nn30"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameManager="*res://scenes/game_manager.tscn"
+
+[global_group]
+
+Player=""
+
 [input]
 
 left={

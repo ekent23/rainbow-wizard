@@ -224,7 +224,7 @@ script = ExtResource("1_u2ulf")
 sprite_frames = SubResource("SpriteFrames_cs1tg")
 animation = &"walk"
 autoplay = "idle"
-frame_progress = 0.572985
+frame_progress = 0.974316
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 1)
@@ -232,3 +232,4 @@ shape = SubResource("CapsuleShape2D_0yhus")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.53, 0.53)
+limit_bottom = 800
